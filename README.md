@@ -1,22 +1,22 @@
 <div align="center">
-<img src="./docs/images/icon.svg" alt="icon"/>
+<img src="./docs/images/head-cover.png" alt="icon"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
-English / [简体中文](./README_CN.md) / [日本語](./README_JA.md)
+English / [简体中文](./README_CN.md)
 
-One-Click to get well-designed cross-platform ChatGPT web UI.
+One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
 
-一键免费部署你的跨平台私人 ChatGPT 应用。
+一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[Web App](https://chatgpt.nextweb.fun/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Twitter](https://twitter.com/mortiest_ricky) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
+[Web App](https://app.nextchat.dev/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Twitter](https://twitter.com/mortiest_ricky) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-[网页版](https://chatgpt.nextweb.fun/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[网页版](https://app.nextchat.dev/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [web-url]: https://chatgpt.nextweb.fun
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
@@ -25,7 +25,9 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/ZBUEFA)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
@@ -37,8 +39,8 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
 - Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- Fully compatible with self-deployed llms, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
-- Privacy first, all data stored locally in the browser
+- Fully compatible with self-deployed LLMs, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
+- Privacy first, all data is stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
 - Responsive design, dark mode and PWA
 - Fast first screen loading speed (~100kb), support streaming response
@@ -59,9 +61,11 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 
 ## What's New
 
-- 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
-- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
+- 🚀 v2.10.1 support Google Gemini Pro model.
+- 🚀 v2.9.11 you can use azure endpoint now.
 - 🚀 v2.8 now we have a client that runs across all platforms!
+- 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
+- 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
 
 ## 主要功能
 
@@ -74,7 +78,7 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 - 预制角色功能（面具），方便地创建、分享和调试你的个性化对话
 - 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
 - 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
-- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
+- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
 - 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
 
 ## 开发计划
@@ -93,6 +97,7 @@ One-Click to get well-designed cross-platform ChatGPT web UI.
 - 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
 - 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
 - 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
+- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
 
 ## Get Started
 
@@ -153,13 +158,13 @@ After adding or modifying this environment variable, please redeploy the project
 
 > [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
 
-### `OPENAI_API_KEY` (required)
-
-Your openai api key.
-
 ### `CODE` (optional)
 
-Access passsword, separated by comma.
+Access password, separated by comma.
+
+### `OPENAI_API_KEY` (required)
+
+Your openai api key, join multiple api keys with comma.
 
 ### `BASE_API_URL` (optional)
 
@@ -173,6 +178,28 @@ Override openai api request base url.
 
 Specify OpenAI organization ID.
 
+### `AZURE_URL` (optional)
+
+> Example: https://{azure-resource-url}/openai/deployments/{deploy-name}
+
+Azure deploy url.
+
+### `AZURE_API_KEY` (optional)
+
+Azure Api Key.
+
+### `AZURE_API_VERSION` (optional)
+
+Azure Api Version, find it at [Azure Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+
+### `GOOGLE_API_KEY` (optional)
+
+Google Gemini Pro Api Key.
+
+### `GOOGLE_URL` (optional)
+
+Google Gemini Pro Api Url.
+
 ### `HIDE_USER_API_KEY` (optional)
 
 > Default: Empty
@@ -185,11 +212,26 @@ If you do not want users to input their own API key, set this value to 1.
 
 If you do not want users to use GPT-4, set this value to 1.
 
-### `HIDE_BALANCE_QUERY` (optional)
+### `ENABLE_BALANCE_QUERY` (optional)
 
 > Default: Empty
 
-If you do not want users to query balance, set this value to 1.
+If you do want users to query balance, set this value to 1, or you should set it to 0.
+
+### `DISABLE_FAST_LINK` (optional)
+
+> Default: Empty
+
+If you want to disable parse settings from url, set this to 1.
+
+### `CUSTOM_MODELS` (optional)
+
+> Default: Empty
+> Example: `+llama,+claude-2,-gpt-3.5-turbo,gpt-4-1106-preview=gpt-4-turbo` means add `llama, claude-2` to model list, and remove `gpt-3.5-turbo` from list, and display `gpt-4-1106-preview` as `gpt-4-turbo`.
+
+To control custom models, use `+` to add a custom model, use `-` to hide a model, use `name=displayName` to customize model name, separated by comma.
+
+User `-all` to disable all default models, `+all` to enable all default models.
 
 ## Requirements
 
@@ -257,6 +299,10 @@ If your proxy needs password, use:
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
+## Synchronizing Chat Records (UpStash)
+
+| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
+
 ## Documentation
 
 > Please go to the [docs][./docs] directory for more documentation instructions.
@@ -309,10 +355,17 @@ If you want to add a new translation, read this [document](./docs/translation.md
 [@AnsonHyq](https://github.com/AnsonHyq)
 [@synwith](https://github.com/synwith)
 [@piksonGit](https://github.com/piksonGit)
+[@ouyangzhiping](https://github.com/ouyangzhiping)
+[@wenjiavv](https://github.com/wenjiavv)
+[@LeXwDeX](https://github.com/LeXwDeX)
+[@Licoy](https://github.com/Licoy)
+[@shangmin2009](https://github.com/shangmin2009)
 
-### Contributor
+### Contributors
 
-[Contributors](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
+<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
+</a>
 
 ## LICENSE
 
